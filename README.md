@@ -8,7 +8,12 @@
 
 </div>
 
-# Buat model dan migrations
+# 1. Buat model dan migrations
+
+![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/model.jpg)
+![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/migrate.jpg)
+
+# Hasil database
 
 ![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/desaindb.jpg)
 
