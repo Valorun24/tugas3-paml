@@ -10,7 +10,7 @@
 
 # Buat model dan migrations
 
-![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/models.png)
+![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/desaindb.jpg)
 
 <!-- # Migrations Structure
 ![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/migrations.png)
