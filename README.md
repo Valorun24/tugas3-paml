@@ -8,7 +8,7 @@
 
 </div>
 
-# 1. Buat model dan migrations
+# Buat model dan migrations
 
 ![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/model.jpg)
 ![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/migrate.jpg)
@@ -16,14 +16,5 @@
 # Hasil database
 
 ![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/desaindb.jpg)
-
-<!-- # Migrations Structure
-![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/migrations.png)
-# Seeder Structure
-![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/seeders.png)
-# Final Database
-![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/database.png)
-# Controllers Structure
-![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/controllers.png) -->
 
 <div>
