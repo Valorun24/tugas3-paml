@@ -44,6 +44,23 @@ Hasil database personal access token
 Hasil Pengecekan token auth
 ![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/token.jpg)
 
-# CRUD
+# <-----CRUD----->
+
+# CRUD Customer
+
+1. Create
+   ![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/cuspost.jpg)
+
+2. Read
+   ![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/cusget.jpg)
+
+3. Read by id
+   ![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/cusgetid.jpg)
+
+4. Put
+   ![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/cusput.jpg)
+
+5. Delete
+   ![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/cusdel.jpg)
 
 <div>

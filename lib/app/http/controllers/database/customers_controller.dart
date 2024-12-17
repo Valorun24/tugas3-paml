@@ -92,10 +92,7 @@ class CustomersController extends Controller {
         ..custCountry = body['cust_country']
         ..custTelp = body['cust_telp'];
 
-      await CustomersModel()
-          .query()
-          .where('cust_id', '=', id)
-          .update({
+      await CustomersModel().query().where('cust_id', '=', id).update({
         'cust_name': customer.custName,
         'cust_address': customer.custAddress,
         'cust_city': customer.custCity,
@@ -123,7 +120,7 @@ class CustomersController extends Controller {
         });
       }
 
-      return Response.json({'message': 'Customer deleted successfully'});
+      return Response.json({'message': 'Customer berhasil terhapus'});
     } catch (e) {
       return Response.json({
         'error': 'Bad Request',
