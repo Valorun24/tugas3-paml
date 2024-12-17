@@ -15,6 +15,10 @@
 
 # Hasil database
 
+DATABASE HASIL MIGRATION
 ![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/desaindb.jpg)
+
+DATABASE HASIL MIGRATION SETELAH PENAMBAHAN LOGIN AUTH
+![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/authdb.jpg)
 
 <div>
