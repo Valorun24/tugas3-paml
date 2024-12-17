@@ -11,8 +11,8 @@ class AuthController extends Controller {
         'email': 'required|email',
         'password': 'required|min_length:6|confirmed',
       }, {
-        'username.required': 'Nama tidak boleh kosong',
-        'email.required': 'Email tidak boleh kosong',
+        'username.required': 'Nama harap diisi',
+        'email.required': 'Email harap diisi',
         'email.email': 'Format email tidak valid',
         'password.required': 'Password tidak boleh kosong',
         'password.min_length': 'Password harus minimal 6 karakter',
@@ -31,7 +31,7 @@ class AuthController extends Controller {
           await UsersModel().query().where('email', '=', email).first();
       if (existingUser != null) {
         return Response.json({
-          "message": "User sudah terdaftar",
+          "message": "User telah tersedia",
         }, 409);
       }
 
@@ -47,7 +47,7 @@ class AuthController extends Controller {
       });
 
       return Response.json({
-        "message": "Berhasil mendaftarkan user",
+        "message": "Register Berhasil",
       }, 201);
     } catch (e) {
       return Response.json({
@@ -112,18 +112,14 @@ class AuthController extends Controller {
 
   Future<Response> me() async {
     try {
-      // Ambil pengguna yang sudah terotentikasi
       Map? authUser = Auth().user();
 
-      // Periksa apakah token valid dan data pengguna ada
       if (authUser != null) {
-        final email =
-            authUser['email']; // Asumsi token menyimpan email pengguna
+        final email = authUser['email'];
         var user =
             await UsersModel().query().where('email', '=', email).first();
 
         if (user != null) {
-          // Hapus data sensitif
           user.remove('password');
 
           return Response.json({

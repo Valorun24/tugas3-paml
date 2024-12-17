@@ -21,4 +21,12 @@ DATABASE HASIL MIGRATION
 DATABASE HASIL MIGRATION SETELAH PENAMBAHAN LOGIN AUTH
 ![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/authdb.jpg)
 
+# Register
+
+ketika berhasil register
+![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/registersukses.jpg)
+
+ketika gagal register
+![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/registerfailed.jpg)
+
 <div>
