@@ -29,4 +29,21 @@ ketika berhasil register
 ketika gagal register
 ![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/registerfailed.jpg)
 
+# Login
+
+Login Berhasil
+![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/login.jpg)
+
+# Database token
+
+Hasil database personal access token
+![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/personal.jpg)
+
+# Cek Token Auth
+
+Hasil Pengecekan token auth
+![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/token.jpg)
+
+# CRUD
+
 <div>
