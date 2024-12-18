@@ -44,7 +44,7 @@ Hasil database personal access token
 Hasil Pengecekan token auth
 ![App Screenshot](https://github.com/Valorun24/tugas3-paml/blob/main/img/token.jpg)
 
-# <-----CRUD----->
+<h1 align="center"><-----CRUD-----></h1>
 
 # CRUD Customer
 
